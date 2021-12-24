@@ -176,4 +176,4 @@ for N_split in [100, ]:
     plt.show()
 
 df = pd.DataFrame([N_split_list, mean_list], index=["N_split", "mean"]).T
-df.to_csv("./data/european_call_option_single.csv", index=False)
+# df.to_csv("./data/european_call_option_single.csv", index=False)
